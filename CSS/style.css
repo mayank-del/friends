@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 4px solid white;
+    border-radius: 50px;
+    background-color: rgb(0, 183, 255);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    height: 447px;
+}
+
+.nav-list {
+    width: 89%;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 32px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.nav-list li a {
+    text-decoration: none;
+}
+
+.rightNav {
+    /*background-color: aqua;*/
+    width: 20%;
+    margin: 3px 191px;
+    margin-right: 125px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid bisque;
+    border-radius: 12px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.1) url('../bla.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+    width: 100%;
+    height: 120px;
+    margin-top: 0px;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: thistle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto;
+}
+
+.firstHalf {
+    width: 46%;
+    display: flex;
+    margin-left: 29px;
+    padding: 2px 7px;
+}
+
+.secondHalf {
+    width: 35%;
+    margin-right: 51px;
+    margin-top: 9%;
+}
+
+.secondHalf img {
+    width: 55%;
+    border: 4px solid peachpuff;
+    border-radius: 150px;
+    border-style: double;
+    background-color: rgb(0, 195, 255);
+}
+
+.text-big {
+    font-size: 40px;
+    text-align: center;
+    width: 71%;
+    margin-top: 20%
+}
+
+.text-small {
+    font-size: 18px;
+    margin-top: 144px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 242px;
+}
+
+.button {
+    margin: 61px 36px;
+}
+
+.btn-x {
+    margin-top: 77px;
+    margin-right: auto;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: tan;
+    cursor: pointer;
+}
+
+.btn-y {
+    margin-top: 32px;
+    margin-right: auto;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: tan;
+    cursor: pointer;
+}
+
+.btn-btn-md {
+    padding: 8px 20px;
+    vertical-align: middle;
+    margin-top: 11px;
+    border-radius: 8px;
+    background: none;
+    color: pink;
+    cursor: pointer;
+}
+
+.btn-dark {
+    color: rgb(40, 149, 238);
+    border: 2px solid pink;
+    cursor: pointer;
+    margin-top: 46px;
+    margin-right: 8%;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: none;
+    justify-content: center;
+}
+
+.secFull {
+    height: 1025px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 91%;
+    margin: auto;
+}
+
+.section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 87%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.secAdv {
+    font-size: x-large;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.sec-Left {
+    flex-direction: row-reverse;
+}
+
+.p1 {
+    padding: 0px 40px;
+}
+
+.img {
+    border: 2px solid black;
+    border-radius: 26px;
+}
+
+.sectionTag {
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(109, 199, 157);
+}
+
+.sectionSubTag {
+    position: relative;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0;
+    width: 97%;
+    height: 978 px;
+    color: seashell;
+}
+
+.paras {
+    background: url(../lapy.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/*.paras::before {
+    content: "";
+    height: 1025px;
+    background: url(../lapy.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.25);
+}*/
+
+.contact {
+    background-color: lightyellow;
+    height: 80vh;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.text-center {
+    text-align: center;
+    padding: 18px;
+    margin-left: 56px;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.form {
+    max-width: 98%;
+    margin: auto;
+    height: 800px;
+}
+
+.form-input {
+    width: 50%;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    margin: 15px 374px;
+    padding: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    background-image: radial-gradient(#666, #333);
+}
+
+#instructions {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    padding-bottom: 6px;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}*/
+
+.text-footer {
+    text-align: center;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+}
+
+.text-footer {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    padding: 10px 0px;
+    color: cornsilk;
+    background-color: black;
+}
+
+.gallary {
+    margin: 10px 50px;
+}
+
+.gallary img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallary img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+/*.vi-tx {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.vi {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hh {
+    font-size: 3em;
+    position: relative;
+    text-align: inherit;
+    bottom: 500px;
+    padding: 4px 248px;
+}

@@ -366,6 +366,7 @@ canvas {
               }
      .background {
       height: 40vh;
+      max-width:100%;
           }  
      .section {
         height: 64vh;
@@ -384,8 +385,9 @@ canvas {
            height: 100%;
                  }
         .hh {
-         bottom: 484px;
+         bottom: 497px;
               padding: 1px 3px;
+             font-size: 2.5em;
                  }
                   }
 

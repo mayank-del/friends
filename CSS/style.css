@@ -359,3 +359,35 @@ canvas {
     bottom: 500px;
     padding: 4px 248px;
 }
+
+ @media (max-width:1280px) {   
+     .navbar {
+       max-height: 10vh;
+              }
+     .background {
+      height: 40vh;
+          }  
+     .section {
+        height: 64vh;
+            }
+     .sub-secAdv {
+        padding: 11px 185px;
+         margin: -11px -218px;
+     }
+     
+       .paras {
+          height: 136%;
+          margin-top: 47%;
+             }
+       .gallary {
+           margin: 377px 70px;
+           height: 100%;
+                 }
+        .hh {
+         bottom: 484px;
+              padding: 1px 3px;
+                 }
+                  }
+
+                                            
+                                         

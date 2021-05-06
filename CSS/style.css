@@ -72,13 +72,14 @@ html {
 }
 
 .background {
-    background:url('../ner.jpg');
+    background-image:linear-gradient(rgba(26,26,26, 0.7),rgba(26,26,26, 0.7), url('../ner.jpg'));
     background-size: cover;
     background-blend-mode: lighten;
-    position: absolute;
-    margin-right:0px;
+    background-position: center center;
+    background-repeat:no-repeat;
     width: 100%;
     height: 220px;
+    margin-right:0px;
     margin-top: 0px;
 }
 
@@ -370,12 +371,11 @@ canvas {
      .background {
       height: 60vh;
       max-width:100%;
-       margin-right:0px;
+      margin-right:0px;
       margin-top: 0px;
           }  
      .section {
-       
-       height:30vh;
+        height:30vh;
             }
      .sub-secAdv {
         padding: 11px 185px;

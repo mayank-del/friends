@@ -189,7 +189,7 @@ html {
 }
 
 .section {
-    height: 500px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -202,6 +202,7 @@ html {
     font-size: x-large;
     font-family: cursive;
     font-size: x-large;
+    color:DodgerBlue;
 }
 
 .sec-Left {

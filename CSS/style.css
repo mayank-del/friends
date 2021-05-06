@@ -72,7 +72,7 @@ html {
 }
 
 .background {
-    background:linear-gradient(rgba(26,26,26, 0.7),rgba(26,26,26, 0.7)), url('../ner.jpg');
+    background:linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)), url('../ner.jpg');
     background-size: cover;
     background-blend-mode: lighten;
     background-position: center center;
@@ -374,8 +374,8 @@ canvas {
       margin-right:0px;
       margin-top: 0px;
           }  
-    /* .section {
-        height:300vh;*/
+     .section {
+        height:300vh;
             }
      .sub-secAdv {
         padding: 11px 185px;

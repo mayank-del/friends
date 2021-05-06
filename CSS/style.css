@@ -45,7 +45,7 @@ html {
 
 .nav-list li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .nav-list li a:hover {
@@ -375,7 +375,7 @@ canvas {
       margin-top: 0px;
           }  
      .section {
-        height:420vh;
+        height:490vh;
             }
      .sub-secAdv {
         padding: 11px 185px;
@@ -384,7 +384,7 @@ canvas {
      
        .paras {
           height: 800px
-          margin-top: 47%;
+          margin-top: 54%;
             bottom: 300px;
            
              }

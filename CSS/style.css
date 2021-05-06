@@ -77,7 +77,7 @@ html {
     background-blend-mode: lighten;
     background-position: center center;
     background-repeat:no-repeat;
-    width: 100%;
+    width: 126%;
     height: 220px;
     margin-right:0px;
     margin-top: 0px;
@@ -383,11 +383,9 @@ canvas {
      }
      
        .paras {
-          height: 1030px
+          height:1030px;
         
-            
-           
-             }
+               }
        .gallary {
            margin: 377px 70px;
            height: 100%;

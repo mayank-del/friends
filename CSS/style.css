@@ -242,7 +242,7 @@ html {
 .paras {
     background: url(../lapy.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 1025px;
+    height:1020px;
 }
 
 
@@ -381,11 +381,6 @@ canvas {
         padding: 11px 185px;
          margin: -11px -218px
      }
-     
-       .paras {
-          height:1030px;
-        
-               }
        .gallary {
            margin: 377px 70px;
            height: 100%;

@@ -200,6 +200,9 @@ html {
     max-width: 87%;
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
+     padding:68px 87px;
+     margin-top :-200px;
+  The  margin-bottom :-33px;
 }
 
 .secAdv {

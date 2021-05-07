@@ -188,8 +188,7 @@ html {
     align-items: center;
     justify-content: space-evenly;
     max-width: 91%;
-    margin: auto;
-    top:13%;
+    
 }
 
 .section {
@@ -244,6 +243,7 @@ html {
     background: url(../lapy.jpg) no-repeat center center fixed;
     background-size: cover;
     height:1020px;
+   
 }
 
 
@@ -380,7 +380,7 @@ canvas {
           }  
      .paras{
        height:1800px;   
-       top:13%;
+       margin-top:13%;
         }
             
      .sub-secAdv {

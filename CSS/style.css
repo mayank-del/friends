@@ -69,6 +69,7 @@ html {
     font-size: 17px;
     border: 2px solid bisque;
     border-radius: 12px;
+    width:10%;
 }
 
 .background {
@@ -378,9 +379,14 @@ canvas {
       margin-right:0px;
       margin-top: 0px;
           }  
+    .section{
+      height:1000px;   
+   
+}
+
      .paras{
        height:1800px;   
-       margin-top:13%;
+      
         }
             
      .sub-secAdv {

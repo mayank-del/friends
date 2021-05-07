@@ -345,7 +345,9 @@ canvas {
     transform: scale(1.1);
 }
 
-
+.vid-gallary{
+    margin-left:5px;
+}
 /*.vi-tx {
     text-align: center;
     justify-content: center;

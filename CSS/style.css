@@ -214,11 +214,13 @@ html {
     color:DodgerBlue;
 }
 
-.sec-Left {
+.section sec-Left {
     flex-direction: row-reverse;
      padding:68px 68px;
 }
-
+.section rt{
+    padding:40px 40px;
+}
 .p1 {
     padding: 0px 40px;
 }

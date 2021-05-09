@@ -216,6 +216,7 @@ html {
 
 .sec-Left {
     flex-direction: row-reverse;
+     padding:68px 68px;
 }
 
 .p1 {

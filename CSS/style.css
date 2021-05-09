@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    width:100%;
+   
 }
 
 html {
@@ -67,11 +67,11 @@ html {
 }
 
 #search {
-    padding: 2px;
+    padding: 5px;
     font-size: 17px;
     border: 2px solid bisque;
     border-radius: 12px;
-    margin:0px 51px;
+    
 }
 
 .background {
@@ -80,7 +80,7 @@ html {
     background-blend-mode: darken;
     background-position: center center;
     background-repeat:no-repeat;
-    width: 126%;
+    width: 100%;
     height: 220px;
     margin-right:0px;
     margin-top: 0px;
@@ -391,7 +391,7 @@ canvas {
 }
 
      .paras{
-       height:1800px;   
+       height:1400px;   
        margin-left:4%;
         }
             

@@ -75,7 +75,7 @@ html {
 }
 
 .background {
-    background:linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)), url('../ner.jpg');
+    background:linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)), url('../e0.jpg');
     background-size: cover;
     background-blend-mode: darken;
     background-position: center center;

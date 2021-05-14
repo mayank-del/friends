@@ -94,35 +94,35 @@ html {
     animation-play-state:running;
     animation-timing-function:ease-in-out;
 }
-@keyframe animate{
+@keyframes animate{
 0%{
-background-image:url('../hack.jpg');
+background-image:url(hack.jpg);
 }
-0%{
-background-image:url('../sp2.jpg');
+20%{
+background-image:url(sp2.jpg);
 }
-0%{
-background-image:url('../road.jpg');
+30%{
+background-image:url(road.jpg);
 }
-0%{
-background-image:url('../ner.jpg');
+40%{
+background-image:url(ner.jpg);
 }
-0%{
-background-image:url('../data.jpg');
+50%{
+background-image:url(data.jpg);
 }
-0%{
-background-image:url('../jocker.jpg');
+60%{
+background-image:url(jocker.jpg);
 }
-0%{
-background-image:url('../bmw2.jpg');
+70%{
+background-image:url(bmw2.jpg);
 }
-0%{
-background-image:url('../sp1.jpg');
+85%{
+background-image:url(sp1.jpg);
 }
-0%{
-background-image:url('../beach.jpg');
+100%{
+background-image:url(beach.jpg);
 }
-
+}
 
 .firstSection {
     height: 100vh;

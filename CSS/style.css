@@ -84,11 +84,11 @@ html {
     height: 220px;
     margin-right:0px;
     margin-top: 0px;
-    transition:3s;
+    transition:6s;
 
     animation-name:animate;
     animation-direction: alternate-reverse;
-    animation-duration:30s;
+    animation-duration:100s;
     animation-fill-mode: forwards;
     animation-iteration-count:infinite;
     animation-play-state:running;

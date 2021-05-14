@@ -75,7 +75,7 @@ html {
 }
 
 .background {
-    background:linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)), url('../bmw.jpg');
+    background:linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7);
     background-size: cover;
     background-blend-mode: darken;
     background-position: center center;
@@ -94,33 +94,34 @@ html {
     animation-play-state:running;
     animation-timing-function:ease-in-out;
 }
+
 @keyframes animate{
 0%{
-background-image:url(hack.jpg);
+background-image:url('../hack.jpg');
 }
 20%{
-background-image:url(sp2.jpg);
+background-image:url('../sp2.jpg');
 }
 30%{
-background-image:url(road.jpg);
+background-image:url('../road.jpg');
 }
 40%{
-background-image:url(ner.jpg);
+background-image:url('../ner.jpg');
 }
 50%{
-background-image:url(data.jpg);
+background-image:url('../bmw.jpg');
 }
 60%{
-background-image:url(jocker.jpg);
+background-image:url('../jocker.jpg');
 }
 70%{
-background-image:url(bmw2.jpg);
+background-image:url('../bmw2.jpg');
 }
 85%{
-background-image:url(sp1.jpg);
+background-image:url('../sp1.jpg');
 }
 100%{
-background-image:url(beach.jpg);
+background-image:url('../beach.jpg');
 }
 }
 
